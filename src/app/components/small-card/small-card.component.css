@@ -1,0 +1,30 @@
+.container-small-card {
+  display: flex;
+  flex-direction: row;
+  width: 700px;
+  border-bottom: 1px solid rgba(128, 128, 128, 0.263);
+  margin-top: 0.6rem;
+  padding-block: 0.6rem;
+}
+
+.small-card-photo > img {
+  margin-right: 1.25rem;
+  width: 230px;
+  height: 115px;
+}
+
+.small-card-section2 {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+
+.small-card-date > p{
+  font-size: 0.825rem;
+  color: rgba(128, 128, 128, 0.44);
+}
+
+.small-card-title > h1 {
+  font-size: 1.25em;
+  color: #DCDCDC;
+}

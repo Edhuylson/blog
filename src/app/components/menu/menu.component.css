@@ -1,0 +1,16 @@
+.container-menu {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 6rem;
+}
+
+.container-menu > ul{
+  display: flex;
+  flex-direction: row;
+}
+
+.container-menu > ul > li {
+  margin-right: 1.25rem;
+  list-style: none;
+}

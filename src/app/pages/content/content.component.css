@@ -1,0 +1,40 @@
+.container-content {
+  border: 1px solid rgba(128, 128, 128, 0.258);
+  width: auto;
+  height: 630px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin-inline: 0.625rem;
+  padding-block: 1.25rem;
+  padding-inline: 3rem;
+  text-align: justify;
+}
+
+.content-cover {
+  margin-top: 0.625rem;
+}
+
+.content-cover > img {
+  border: 5px solid rgb(172, 167, 167);
+  border-radius: 0.313rem;
+  width: 25rem;
+  height: 15rem;
+}
+
+.content-date {
+  margin-block: 0.5rem;
+}
+
+.content-date > p{
+  font-size: 0.825rem;
+  color: rgba(128, 128, 128, 0.44);
+}
+
+.content-description {
+  margin-top: 0.938rem;
+}
+
+.content-description > p{
+  color: grey;
+}
